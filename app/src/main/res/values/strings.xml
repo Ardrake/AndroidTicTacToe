@@ -21,9 +21,9 @@
     <string name="vide">""</string>
     <string name="Mode2Joueur_label">""</string>
 
-    <string name="makeMove">""</string>
+    <string name="makeMove">"-"</string>
 
 
-
+s
 
 </resources>

@@ -17,7 +17,7 @@ public class Menu extends AppCompatActivity {
         setContentView(R.layout.activity_menu);
     }
 
-    public void exit_click(View v)
+    public void quitter_click(View v)
     {
         AlertDialog.Builder dlgAlert  = new AlertDialog.Builder(this);
 
@@ -35,19 +35,19 @@ public class Menu extends AppCompatActivity {
         dlgAlert.create().show();
     }
 
-    public void apropos(View v)
+    public void apropos_click(View v)
     {
         Intent myIntent = new Intent(Menu.this, apropos.class);
         Menu.this.startActivity(myIntent);
     }
 
-    public void Mode1Joueur(View v)
+    public void Mode1Joueur_click(View v)
     {
         Intent myIntent = new Intent(Menu.this,Mode1Joueur.class);
         Menu.this.startActivity(myIntent);
     }
 
-    public void Mode2Joueurs(View v)
+    public void Mode2Joueurs_click(View v)
     {
         Intent myIntent = new Intent(Menu.this,Mode2Joueurs.class);
         Menu.this.startActivity(myIntent);

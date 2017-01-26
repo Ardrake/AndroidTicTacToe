@@ -21,7 +21,7 @@
         android:layout_below="@+id/Mode2Joueurs"
         android:layout_marginTop="41dp"
         android:background="@color/button"
-        android:onClick="@string/Mode1Joueur"
+        android:onClick="Mode1Joueur_click"
         android:text="@string/Mode1JoueurTexte" />
 
     <Button
@@ -32,8 +32,8 @@
         android:layout_below="@+id/Mode1Joueurs"
         android:layout_marginTop="42dp"
         android:background="@color/button"
-        android:onClick="@string/apropos"
-        android:text="@string/aproposTexte" />
+        android:onClick="apropos_click"
+        android:text="aproposbtn" />
 
     <Button
         android:id="@+id/quitter"
@@ -43,8 +43,8 @@
         android:layout_below="@+id/aproposbtn"
         android:layout_marginTop="41dp"
         android:background="@color/button"
-        android:onClick="@string/quitter"
-        android:text="@string/quitterText" />
+        android:onClick="quitter_click"
+        android:text="Quitter" />
 
     <Button
         android:id="@+id/Mode2Joueurs"
@@ -52,11 +52,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="107dp"
         android:background="@color/button"
-        android:onClick="@string/Mode2Joueurs"
-        android:text="@string/Mode2JoueursTexte"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:onClick="Mode2Joueurs_click"
+        android:text="@string/Mode2JoueursTexte" />
 
 
 </RelativeLayout>
